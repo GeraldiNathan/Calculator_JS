@@ -33,3 +33,11 @@ body {
   margin: 5px;
   border-radius: 50%;
 }
+
+.btn:active {
+  background-color: #3b3b3b; /* Ubah warna latar belakang saat tombol ditekan */
+  color: black; /* Ubah warna teks saat tombol ditekan */
+  transform: scale(0.95); /* Ubah ukuran tombol saat tombol ditekan */
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5); /* Tambah bayangan saat tombol ditekan */
+  transition: all 0.1s; /* Efek transisi untuk menghaluskan perubahan */
+}
